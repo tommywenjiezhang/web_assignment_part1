@@ -6,4 +6,4 @@ service:
 before_install:
   - docker build -t tommywenjiezhang/web_part1_assignment -f app/Dockerfile.dev ./app
 script:
-  docker run tommywenjiezhang/web_part1_assignment
+  docker run tommywenjiezhang/web_part1_assignment pytest test
