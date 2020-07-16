@@ -12,8 +12,8 @@ flask-sqlalchemy = "*"
 python-dotenv = "*"
 mysql-connector-python = "*"
 marshmallow = "*"
-pymysql = "*"
 flask-cors = "*"
+flask-restful = "*"
 
 [requires]
 python_version = "3.8"

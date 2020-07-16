@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const get_all_cities = function(){
     return function(dispatch){
-        fetch("/api/cities").then(res => res.json()).then(
+        fetch("/api/cities/").then(res => res.json()).then(
             (data) => {
                 dispatch(city(data))}
         )

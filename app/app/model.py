@@ -11,6 +11,7 @@ class City(db.Model):
     capital = db.Column("fldCapitalStatus",db.String)
     population = db.Column("fldPopulation",db.BIGINT)
 
+
 class CitySchema(Schema):
     id = fields.Integer()
     cityName = fields.String()
